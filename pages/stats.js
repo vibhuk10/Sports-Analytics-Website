@@ -1,8 +1,9 @@
-import Header from "../components/header";
+import Layout from "../components/Layout";
 
 export default () => (
     <>
-        <Header />
-        <h1>Jimmy Garoppolo stats</h1>
+        <Layout>
+            <h1>Jimmy Garoppolo stats</h1>
+        </Layout>
     </>
 );

@@ -1,8 +1,9 @@
-import Header from "../components/header";
+import Layout from "../components/Layout";
 
 export default () => (
     <>
-        <Header />
-        <h1>Welcome to Mastering Next.js!</h1>
+        <Layout>
+            <h1>Sports Analytics</h1>
+        </Layout>
     </>
 );
