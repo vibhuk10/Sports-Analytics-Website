@@ -1,23 +1,26 @@
 import Link from "next/link";
+import Head from "next/head";
 
 export default () => (
     <header>
         <ul>
-            <li>
-                <Link href="/stats">
-                    <a>Stats</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/login">
-                    <a>Login</a>
-                </Link>
-            </li>
-            <li>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
-            </li>
+            <Head>
+                <div>
+                    <Link href="/stats">
+                        <a>Stats</a>
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/login">
+                        <a>Login</a>
+                    </Link>
+                </div>
+                <div>
+                    <Link href="/">
+                        <a>Home</a>
+                    </Link>
+                </div>
+            </Head>
         </ul>
     </header>
 );
