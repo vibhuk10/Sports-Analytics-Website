@@ -2,21 +2,70 @@
 
 .Header {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    flex-direction: row;
 
     height: 70px;
     width: 100%;
 
     padding: 0 20px;
 
+    background: $highlight;
+}
+.HeaderLogo {
     font-family: $logo-font;
     font-size: 24px;
     font-weight: bold;
     color: $on-secondary;
     text-transform: uppercase;
 
-    background: $highlight;
+    padding-right: 10px;
 
     cursor: pointer;
+}
+
+.HeaderNav {
+    display: flex;
+    align-items: center;
+
+    font-family: $header-font;
+    font-size: 22px;
+    font-weight: bold;
+    color: $on-secondary;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    height: 70px;
+    padding: 0px 15px;
+}
+.HeaderNav:hover {
+    background: $hover;
+}
+
+.HeaderRight {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.HeaderLogin {
+    display: flex;
+    align-items: center;
+    //margin-left: auto;
+
+    font-family: $header-font;
+    font-size: 22px;
+    font-weight: bold;
+    color: $on-secondary;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    height: 70px;
+
+    padding: 0px 15px;
+}
+.HeaderLogin:hover {
+    background: $hover;
 }

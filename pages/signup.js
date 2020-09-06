@@ -13,8 +13,8 @@ const Login = () => {
     return (
         <>
             <Layout>
-                <input placeholder="Username" />
-                <input placeholder="Password" type="password" />
+                <input placeholder="Create Userame" />
+                <input placeholder="Create Password" />
                 <button onClick={onLogin} type="button">
                     Log In
                 </button>
