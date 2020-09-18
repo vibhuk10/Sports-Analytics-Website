@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Search from "./Search";
 
 import "./Header.scss";
 
@@ -17,6 +18,7 @@ const Header = (props) => (
             <div className="HeaderNav">News & Analysis</div>
         </Link>
         <div className="HeaderRight">
+            <Search />
             <Link href="/login">
                 <div className="HeaderLogin">Login</div>
             </Link>
